@@ -43,6 +43,6 @@ jobs:
 
       - name: "Mostrar variables por default "
         run: |
-          #echo "Github eventos: ${{toJSON(github.event)}}"
+          echo "Github eventos: ${{toJSON(github.event)}}"
           echo "Github actor: $GITHUB_ACTOR"
           echo "GITHUB REPOSITORY: $GITHUB_REPOSITORY"
