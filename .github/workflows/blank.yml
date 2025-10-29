@@ -35,7 +35,7 @@ jobs:
           echo test, and deploy your project.
 
       - name: "Mostrar variables de entorno"
-        if: ${{ env.platform == 'aws' }}
+        if: ${{ env.platform == 'azure' }}
         run: |
           echo "Plaform: ${{env.platform}}"
           echo "Region: ${{env.region}}"
